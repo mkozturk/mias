@@ -183,9 +183,9 @@ def getSheetNames(filename):
 def main():
 
 	listenA = Exam()
-	listenA.parseFromExcel("EFL.xlsx", sheetname="Listening A", columnlist=range(2,22))
+	listenA.parseFromExcel("sample.xlsx", sheetname="Listening A", columnlist=range(2,22))
 	listenB = Exam()
-	listenB.parseFromExcel("EFL.xlsx", sheetindex=1, columnlist=range(2,22))
+	listenB.parseFromExcel("sample.xlsx", sheetindex=1, columnlist=range(2,22))
 
 	myExam = listenA + listenB
 	

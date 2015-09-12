@@ -132,7 +132,7 @@ class Main(QtGui.QMainWindow):
 		# Not applicable with more than one sheet (booklet).
 		output += "<h2>Distribution of responses</h2>"
 		if len(sels) == 1:
-			responses = "_ABCDTF" # try to get this from the file
+			responses = "_ABCDTF"
 			soln = myExam.papers[0].keyslist
 			output += "<p>Correct responses in boldface.</p>"
 			output += """<p><table border="1">
