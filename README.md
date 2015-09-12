@@ -12,4 +12,5 @@ The "Generate Report" button analyzes the test and displays a report in another 
 The file may contain several sheets of related exams. The example file sample.xlsx has two exam forms, Reading and Listening, and four booklets of each. For example, "Listening A" to "Listening D" comprise the same questions in the same order, but choices are shuffled in each question. The report correctly evaluates the difficulty and discrimination index for several booklets of the same type (Listening or Reading), but it does not evaluate the distribution of responses as this is meaningless with shuffled choices. Also, combining different types of exams (e.g., Listening and Reading) gives meaningless results.
 
 The report can be sent to a printer, or saved as a PDF file.
- 
+
+P.S. This is a personal project to help my spouse, Meral, with the administration and analysis of university-wide English proficiency exams. Hence the name "Meral's Item Analysis Software".
